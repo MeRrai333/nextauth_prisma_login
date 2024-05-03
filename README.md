@@ -6,6 +6,7 @@
   <li>or not use docker change DATABASE_URL in .env file to your postgresql database</li>
   <li>run <code style="color : red">npx prisma migrage dev</code> for create table</li>
   <li>run <code style="color : red">npx prisma db seed</code> for seeding admin user</li>
+  <li>admin user in seeding: Email = admin@mail.com, Password = @password1</li>
   <li>Username must contain a-z, A-Z Number and length 6-16</li>
   <li>password must contain 1 a-z, 1 A-Z, 1 specical character and length between 8-32</li>
   <li><code style="color : red">npm run dev</code> for testing</li>
